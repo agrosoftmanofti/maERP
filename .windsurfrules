@@ -14,19 +14,16 @@ The web client for the maERP.Server headless system
 
 A multi-platform client developed in .NET MAUI for Windows, Android, iOS and Mac-Catalyst.
 
-## Project maERP.SharedUI
+## Project maERP.UI
 
-This project contains the front-end pages developed in Blazor and used by maERP.Web and maERP.Client. 
+This is the main Frontend project using Avalonia-UI.
 
 
 # Technology Stack
 
 - .NET 9
 - .NET Entity Framework Core 9
-- .NET Blazor
-- .NET Blazor WebAssembly
-- .NET MAUI Hybrid
-- Mudblazor as UI framework
+- Avalonia UI as frontend framework
 - MariaDB as database
 
 # Project Structure
@@ -45,9 +42,11 @@ maERP/
     ├── maERP.Persistence/        # DB Context 
     ├── maERP.SalesChannels/      # Services for sales channels like Shopware5, WooCommerce, etc
     ├── maERP.Server/             # Headless ERP System with REST API, Controllers
-    ├── maERP.Shared/             # Common classes
-    ├── maERP.SharedUI/           # Blazor Pages for Web and Client
-    ├── maERP.Web/                # WASM Web Client
+    ├── maERP.UI/                 # Main frontend project using Avalonia-UI
+    ├── maERP.UI.Android/         # Frontend project for Android
+    ├── maERP.UI.Browser/         # Frontend project for Browser (WASM)
+    ├── maERP.UI.Desktop/         # Frontend project for Desktop
+    ├── maERP.UI.iOS/             # Frontend project for iOS
 ├── tests/
     ├── maERP.Persistence.Tests/  # DB Context Tests
     ├── maERP.Server.Tests/       # REST API Tests
