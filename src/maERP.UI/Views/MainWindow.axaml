@@ -8,5 +8,8 @@
         x:Class="maERP.UI.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="maERP.UI">
-        <views:MainView />
+        
+        <Window.DataContext>
+                <vm:MainViewModel></vm:MainViewModel>
+        </Window.DataContext>
 </Window>

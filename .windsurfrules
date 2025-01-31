@@ -24,6 +24,7 @@ This is the main Frontend project using Avalonia-UI.
 - .NET 9
 - .NET Entity Framework Core 9
 - Avalonia UI as frontend framework
+- CommunityToolkit.Mvvm as MVVM framework
 - MariaDB as database
 
 # Project Structure
@@ -42,7 +43,7 @@ maERP/
     ├── maERP.Persistence/        # DB Context 
     ├── maERP.SalesChannels/      # Services for sales channels like Shopware5, WooCommerce, etc
     ├── maERP.Server/             # Headless ERP System with REST API, Controllers
-    ├── maERP.UI/                 # Main frontend project using Avalonia-UI
+    ├── maERP.UI/                 # Main frontend project using Avalonia-UI using CommunityToolkit.Mvvm
     ├── maERP.UI.Android/         # Frontend project for Android
     ├── maERP.UI.Browser/         # Frontend project for Browser (WASM)
     ├── maERP.UI.Desktop/         # Frontend project for Desktop
